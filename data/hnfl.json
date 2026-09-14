@@ -1,0 +1,79 @@
+{
+  "forgery": [
+    {
+      "method": "Sigstore/ML-DSA-44 (signature anchored)",
+      "accepted": true,
+      "forge_ms": 0.6824159645475447
+    },
+    {
+      "method": "MTC/ML-DSA-44 (signature anchored)",
+      "accepted": true,
+      "forge_ms": 0.4426670493558049
+    },
+    {
+      "method": "Latch (signature anchored)",
+      "accepted": true,
+      "forge_ms": 0.14399999054148793
+    },
+    {
+      "method": "Latch-A (hash anchored)",
+      "accepted": false,
+      "forge_ms": 3.1172920134849846,
+      "pinned_epochs": 4104
+    },
+    {
+      "method": "Latch-A (anchor refreshed after t_Q)",
+      "accepted": true,
+      "forge_ms": 3.1172920134849846
+    },
+    {
+      "method": "MTC-A (hash anchored)",
+      "accepted": false,
+      "forge_ms": 9.134166990406811
+    }
+  ],
+  "anchor_cost": [
+    {
+      "log2_epochs": 6,
+      "anchor_bytes": 32,
+      "proof_bytes": 192,
+      "root_ms": 0.00825000461190939
+    },
+    {
+      "log2_epochs": 9,
+      "anchor_bytes": 32,
+      "proof_bytes": 288,
+      "root_ms": 0.03604101948440075
+    },
+    {
+      "log2_epochs": 12,
+      "anchor_bytes": 32,
+      "proof_bytes": 384,
+      "root_ms": 0.3011669614352286
+    },
+    {
+      "log2_epochs": 15,
+      "anchor_bytes": 32,
+      "proof_bytes": 480,
+      "root_ms": 2.4238749756477773
+    },
+    {
+      "log2_epochs": 18,
+      "anchor_bytes": 32,
+      "proof_bytes": 576,
+      "root_ms": 5.104915995616466
+    },
+    {
+      "log2_epochs": 21,
+      "anchor_bytes": 32,
+      "proof_bytes": 672,
+      "root_ms": 5.071791994851083
+    },
+    {
+      "log2_epochs": 24,
+      "anchor_bytes": 32,
+      "proof_bytes": 768,
+      "root_ms": 5.287667037919164
+    }
+  ]
+}

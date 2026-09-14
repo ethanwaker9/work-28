@@ -1,0 +1,205 @@
+{
+  "1": [
+    {
+      "method": "Sigstore/ML-DSA-44",
+      "client_ms": 0.1723723554505341,
+      "service_ms": 0.4087881259806636,
+      "verify_ms": 0.17254200065508485,
+      "bundle_bytes": 14659,
+      "log_bytes": 8848,
+      "batch": 1024
+    },
+    {
+      "method": "Sigstore/Falcon-512",
+      "client_ms": 4.537768890259031,
+      "service_ms": 0.7007936255831737,
+      "verify_ms": 0.1387289958074689,
+      "bundle_bytes": 5420,
+      "log_bytes": 3144,
+      "batch": 64
+    },
+    {
+      "method": "Sigstore/SLH-DSA-128f",
+      "client_ms": 38.84670312254457,
+      "service_ms": 77.40090625156881,
+      "verify_ms": 5.906957958359271,
+      "bundle_bytes": 86734,
+      "log_bytes": 51584,
+      "batch": 8
+    },
+    {
+      "method": "Sigstore/SLH-DSA-128s",
+      "client_ms": 845.8190000092145,
+      "service_ms": 1586.9565835164394,
+      "verify_ms": 2.023999986704439,
+      "bundle_bytes": 40566,
+      "log_bytes": 23883,
+      "batch": 2
+    },
+    {
+      "method": "Sigstore/XMSS+ML-DSA",
+      "client_ms": 0.17105142160289688,
+      "service_ms": 6.653005859334371,
+      "verify_ms": 1.2314999767113477,
+      "bundle_bytes": 14979,
+      "log_bytes": 9008,
+      "batch": 64
+    },
+    {
+      "method": "Sigstore/LMS+ML-DSA",
+      "client_ms": 0.17185742217407096,
+      "service_ms": 0.7151503905333811,
+      "verify_ms": 0.7118750072550029,
+      "bundle_bytes": 10755,
+      "log_bytes": 6896,
+      "batch": 64
+    },
+    {
+      "method": "MTC/ML-DSA-44",
+      "client_ms": 0.17695422360475277,
+      "service_ms": 0.055288370106154616,
+      "verify_ms": 0.13514549937099218,
+      "bundle_bytes": 12472,
+      "log_bytes": 3958,
+      "batch": 1024
+    },
+    {
+      "method": "MTC-A/ML-DSA-44",
+      "client_ms": 0.17848466018222098,
+      "service_ms": 0.05559952830935799,
+      "verify_ms": 0.06433302769437432,
+      "bundle_bytes": 7162,
+      "log_bytes": 3958,
+      "batch": 1024
+    },
+    {
+      "method": "Latch",
+      "client_ms": 0.045194783183433174,
+      "service_ms": 0.024551757860535872,
+      "verify_ms": 0.05179201252758503,
+      "bundle_bytes": 3565,
+      "log_bytes": 712,
+      "batch": 1024
+    },
+    {
+      "method": "Latch-A",
+      "client_ms": 0.04483801268406751,
+      "service_ms": 0.02478576664088905,
+      "verify_ms": 0.028166978154331446,
+      "bundle_bytes": 1795,
+      "log_bytes": 712,
+      "batch": 1024
+    }
+  ],
+  "3": [
+    {
+      "method": "Sigstore/ML-DSA-65",
+      "client_ms": 0.27322119143491364,
+      "service_ms": 0.5889477138794064,
+      "verify_ms": 0.2688335080165416,
+      "bundle_bytes": 19744,
+      "log_bytes": 12155,
+      "batch": 1024
+    },
+    {
+      "method": "Sigstore/Falcon-1024",
+      "client_ms": 14.522425781251513,
+      "service_ms": 1.3193261720516603,
+      "verify_ms": 0.25941699277609587,
+      "bundle_bytes": 9392,
+      "log_bytes": 5884,
+      "batch": 64
+    },
+    {
+      "method": "Sigstore/SLH-DSA-192f",
+      "client_ms": 63.60216662869789,
+      "service_ms": 126.9063021245529,
+      "verify_ms": 8.542625000700355,
+      "bundle_bytes": 179630,
+      "log_bytes": 107328,
+      "batch": 8
+    },
+    {
+      "method": "Sigstore/SLH-DSA-192s",
+      "client_ms": 1480.1111874985509,
+      "service_ms": 2823.7501249823254,
+      "verify_ms": 2.9679579893127084,
+      "bundle_bytes": 82423,
+      "log_bytes": 49004,
+      "batch": 2
+    },
+    {
+      "method": "MTC/ML-DSA-65",
+      "client_ms": 0.2711457519808391,
+      "service_ms": 0.07800142378755481,
+      "verify_ms": 0.211604026844725,
+      "bundle_bytes": 16668,
+      "log_bytes": 5487,
+      "batch": 1024
+    },
+    {
+      "method": "MTC-A/ML-DSA-65",
+      "client_ms": 0.2752281494053932,
+      "service_ms": 0.07789058395246684,
+      "verify_ms": 0.08618750143796206,
+      "bundle_bytes": 8691,
+      "log_bytes": 5487,
+      "batch": 1024
+    },
+    {
+      "method": "Latch",
+      "client_ms": 0.09878470899593594,
+      "service_ms": 0.03876057905927155,
+      "verify_ms": 0.08800000068731606,
+      "bundle_bytes": 5134,
+      "log_bytes": 1392,
+      "batch": 1024
+    },
+    {
+      "method": "Latch-A",
+      "client_ms": 0.08714331056580704,
+      "service_ms": 0.038750936539599934,
+      "verify_ms": 0.0425000034738332,
+      "bundle_bytes": 2475,
+      "log_bytes": 1392,
+      "batch": 1024
+    }
+  ],
+  "0": [
+    {
+      "method": "Sigstore/ECDSA-P256",
+      "client_ms": 0.10699282756831963,
+      "service_ms": 0.26540820272202836,
+      "verify_ms": 0.3235625335946679,
+      "bundle_bytes": 1687,
+      "log_bytes": 575,
+      "batch": 64
+    },
+    {
+      "method": "Sigstore/Ed25519",
+      "client_ms": 0.18876040667237248,
+      "service_ms": 0.4276484378351597,
+      "verify_ms": 0.44550004531629384,
+      "bundle_bytes": 1602,
+      "log_bytes": 505,
+      "batch": 64
+    }
+  ],
+  "hash_profile": {
+    "1": {
+      "client": 855.544921875,
+      "service": 270.455078125,
+      "verify": 276.203125
+    },
+    "3": {
+      "client": 1244.0146484375,
+      "service": 393.9853515625,
+      "verify": 401.828125
+    },
+    "5": {
+      "client": 1641.7568359375,
+      "service": 508.2431640625,
+      "verify": 515.8515625
+    }
+  }
+}

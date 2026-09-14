@@ -1,0 +1,62 @@
+{
+  "1": {
+    "latch": {
+      "bundle": 3580,
+      "bundle_anchored": 1800,
+      "client_hash": 824,
+      "service_hash": 267,
+      "service_sig": 0.0009765625,
+      "verify_hash": 276,
+      "verify_sig": 1,
+      "log": 840
+    },
+    "sigstore": {
+      "bundle": 14508,
+      "client_hash": 0,
+      "client_sig": 3,
+      "service_sig": 4,
+      "verify_sig": 5,
+      "verify_hash": 29,
+      "log": 8804
+    },
+    "mtc": {
+      "bundle": 12252,
+      "bundle_anchored": 6812,
+      "client_sig": 3,
+      "service_sig": 0.0029296875,
+      "verify_sig": 4,
+      "verify_hash": 36,
+      "log": 3964
+    }
+  },
+  "3": {
+    "latch": {
+      "bundle": 5149,
+      "bundle_anchored": 2480,
+      "client_hash": 1200,
+      "service_hash": 387,
+      "service_sig": 0.0009765625,
+      "verify_hash": 396,
+      "verify_sig": 1,
+      "log": 1520
+    },
+    "sigstore": {
+      "bundle": 19593,
+      "client_hash": 0,
+      "client_sig": 3,
+      "service_sig": 4,
+      "verify_sig": 5,
+      "verify_hash": 29,
+      "log": 12111
+    },
+    "mtc": {
+      "bundle": 16448,
+      "bundle_anchored": 8341,
+      "client_sig": 3,
+      "service_sig": 0.0029296875,
+      "verify_sig": 4,
+      "verify_hash": 36,
+      "log": 5493
+    }
+  }
+}
